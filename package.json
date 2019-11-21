@@ -1,0 +1,22 @@
+{
+  "name": "webbapp-template",
+  "version": "0.1.0",
+  "author": "Anders Dahnielson <anders@dahnielson.com>",
+  "license": "MIT",
+  "private": true,
+  "scripts": {
+    "dev": "concurrently \"parcel watch ./front/index.html\" \"nodemon ./back/index.js\"",
+    "build": "parcel build ./front/index.html",
+    "prestart": "yarn build",
+    "start": "node ./back/index.js"
+  },
+  "devDependencies": {
+    "concurrently": "^5.0.0",
+    "nodemon": "^2.0.0",
+    "parcel": "^1.12.4"
+  },
+  "dependencies": {
+    "express": "^4.17.1",
+    "express-session": "^1.17.0"
+  }
+}
