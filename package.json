@@ -25,6 +25,7 @@
     "nodemon": "^2.0.0",
     "parcel": "^1.12.4",
     "postcss-modules": "^1.4.1",
+    "postcss-preset-env": "^6.7.0",
     "rimraf": "^3.0.0"
   },
   "dependencies": {
