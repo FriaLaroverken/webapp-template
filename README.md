@@ -9,7 +9,7 @@ cd mitt-projekt
 
 *Notera att du måste ha [Node.js](https://nodejs.org) installerat.*
 
-## Börja
+## Börja utveckla
 
 Installera applikationens beroenden...
 
