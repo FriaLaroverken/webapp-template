@@ -37,7 +37,7 @@
     ],
     "sourceMaps": true
   },
-  "browserlist": [
+  "browserslist": [
     "last 2 versions",
     "not dead",
     "not IE 11",
